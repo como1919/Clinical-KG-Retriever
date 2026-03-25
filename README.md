@@ -1,4 +1,4 @@
-# rag-retriever
+# Clinical-KG-Retriever
 
 A lightweight **clinical retrieval system** built on a disease–symptom knowledge graph.
 
@@ -17,8 +17,8 @@ This system is based on the following paper:
 The study demonstrates that:
 
 - Disease–symptom relationships can be automatically learned from EMR data  
-- Knowledge graphs can be constructed using probabilistic models (Naive Bayes, Logistic Regression, Noisy OR)
-- The resulting graph achieves high clinical quality validated against physician knowledge and Google's health graph  
+- Knowledge graphs can be constructed using probabilistic models (Naive Bayes, Logistic Regression, Noisy OR)  
+- The resulting graph achieves high clinical quality validated against physician knowledge  
 
 ---
 
@@ -27,8 +27,8 @@ The study demonstrates that:
 While the original paper focuses on **knowledge graph construction**,  
 this project extends it into a **retrieval system**:
 
-- Converts knowledge graph → retrieval documents
-- Builds FAISS-based vector index
+- Converts knowledge graph → retrieval documents  
+- Builds FAISS-based vector index  
 - Supports:
   - Text query (clinical narrative)
   - Term-based query (symptom list)
@@ -39,23 +39,25 @@ this project extends it into a **retrieval system**:
 
 ## Retrieval Pipeline
 
-The system is structured into four stages:
-
+```text
 1. builder   : knowledge graph → documents
 2. index     : documents → embeddings → FAISS
 3. retrieve  : query → candidate documents
 4. filter    : documents → structured disease cards
+```
 
 ---
 
 ## Project Structure
 
+```text
 src/rag_retriever/
   builder/
   index/
   retrieve/
   filter/
   pipeline/
+```
 
 ---
 
@@ -75,26 +77,31 @@ src/rag_retriever/
 
 ### 1. Build retrieval documents
 
+```bash
 python scripts/build_docs.py \
   --nodes_csv data/sample/nodes.csv \
   --edges_csv data/sample/edges.csv \
   --out_parquet data/artifacts/docs.parquet
+```
 
 ---
 
 ### 2. Build FAISS index
 
+```bash
 python scripts/build_index.py \
   --docs_parquet data/artifacts/docs.parquet \
   --index_out data/artifacts/faiss_index.bin \
   --table_out data/artifacts/faiss_docs.parquet \
   --region us-west-2 \
   --embed_model_id amazon.titan-embed-text-v2:0
+```
 
 ---
 
 ### 3. Run retrieval
 
+```bash
 python scripts/query.py \
   --mode hybrid \
   --text "right lower quadrant pain with nausea" \
@@ -103,11 +110,13 @@ python scripts/query.py \
   --table_path data/artifacts/faiss_docs.parquet \
   --region us-west-2 \
   --embed_model_id amazon.titan-embed-text-v2:0
+```
 
 ---
 
 ## Example Output
 
+```json
 {
   "disease": "appendicitis",
   "symptoms": [
@@ -116,34 +125,57 @@ python scripts/query.py \
     ["abdominal pain", 0.36]
   ]
 }
+```
 
 ---
 
 ## Key Features
 
-- Knowledge graph–based retrieval (not plain text RAG)
-- Disease-level aggregation
-- Hybrid query support (text + medical terms)
-- Clinically interpretable output
+- Knowledge graph–based retrieval (not plain text RAG)  
+- Disease-level aggregation  
+- Hybrid query support (text + medical terms)  
+- Clinically interpretable output  
 - Modular pipeline (builder / index / retrieve / filter)
+
+---
+
+## Data
+
+This repository includes a small sample knowledge graph:
+
+```text
+data/sample/
+  nodes.csv
+  edges.csv
+```
+
+FAISS artifacts are not included:
+
+```text
+data/artifacts/
+  docs.parquet
+  faiss_docs.parquet
+  faiss_index.bin
+```
+
+These must be generated locally using the provided scripts.
 
 ---
 
 ## Notes
 
-- This package includes **retrieval only**
-- LLM generation and diagnosis prompting are intentionally excluded
-- OpenSearch backend is not included in this public version
-- FAISS index and parquet artifacts should not be committed
+- This package includes **retrieval only**  
+- LLM generation and diagnosis prompting are intentionally excluded  
+- OpenSearch backend is not included in this public version  
 
 ---
 
 ## Future Work
 
-- Integration with LLM-based diagnosis (DDX pipeline)
-- Knowledge graph expansion (UMLS / SNOMED)
-- Improved symptom normalization (e.g., "pain" → location-aware)
-- Clinical weighting refinement
+- Integration with LLM-based diagnosis (DDX pipeline)  
+- Knowledge graph expansion (UMLS / SNOMED)  
+- Improved symptom normalization  
+- Clinical weighting refinement  
 
 ---
 
