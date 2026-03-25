@@ -1,0 +1,487 @@
+:ID,:LABEL,name:String,icd:String,verified:Boolean
+d_abscess,Disease,abscess,,true
+d_acid_reflux,Disease,acid reflux,,true
+d_acute_renal_failure,Disease,acute renal failure,,true
+d_alcohol_intoxication,Disease,alcohol intoxication,,true
+d_alcoholism,Disease,alcoholism,,true
+d_alzheimer_s_disease,Disease,alzheimer's disease,,true
+d_anaphylaxis,Disease,anaphylaxis,,true
+d_anemia,Disease,anemia,,true
+d_aneurysm,Disease,aneurysm,,true
+d_angina,Disease,angina,,true
+d_aphasia,Disease,aphasia,,true
+d_appendicitis,Disease,appendicitis,,true
+d_arrhythmia,Disease,arrhythmia,,true
+d_arthritis,Disease,arthritis,,true
+d_asthma,Disease,asthma,,true
+d_atopic_dermatitis,Disease,atopic dermatitis,,true
+d_atrial_fibrillation,Disease,atrial fibrillation,,true
+d_bed_bug_bite,Disease,bed bug bite,,true
+d_bell_s_palsy,Disease,bell's palsy,,true
+d_bipolar_disorder,Disease,bipolar disorder,,true
+d_bladder_cancer,Disease,bladder cancer,,true
+d_bone_fracture,Disease,bone fracture,,true
+d_bone_infection,Disease,bone infection,,true
+d_borderline_personality_disorder,Disease,borderline personality disorder,,true
+d_brain_tumor,Disease,brain tumor,,true
+d_breast_cancer,Disease,breast cancer,,true
+d_bronchitis,Disease,bronchitis,,true
+d_burn,Disease,burn,,true
+d_cardiac_arrest,Disease,cardiac arrest,,true
+d_cardiomyopathy,Disease,cardiomyopathy,,true
+d_carpal_tunnel_syndrome,Disease,carpal tunnel syndrome,,true
+d_cataracts,Disease,cataracts,,true
+d_celiac_disease,Disease,celiac disease,,true
+d_cellulitis,Disease,cellulitis,,true
+d_cervical_cancer,Disease,cervical cancer,,true
+d_cervical_radiculopathy,Disease,cervical radiculopathy,,true
+d_chicken_pox,Disease,chicken pox,,true
+d_chlamydia,Disease,chlamydia,,true
+d_cholangiocarcinoma,Disease,cholangiocarcinoma,,true
+d_cholecystitis,Disease,cholecystitis,,true
+d_chronic_kidney_disease,Disease,chronic kidney disease,,true
+d_chronic_obstructive_pulmonary_disease,Disease,chronic obstructive pulmonary disease,,true
+d_chronic_pain,Disease,chronic pain,,true
+d_cirrhosis_of_the_liver,Disease,cirrhosis of the liver,,true
+d_colon_cancer,Disease,colon cancer,,true
+d_common_cold,Disease,common cold,,true
+d_concussion,Disease,concussion,,true
+d_congestive_heart_failure,Disease,congestive heart failure,,true
+d_coronary_artery_disease,Disease,coronary artery disease,,true
+d_crohn_s_disease,Disease,crohn's disease,,true
+d_deep_vein_thrombosis,Disease,deep vein thrombosis,,true
+d_dementia,Disease,dementia,,true
+d_diverticulitis,Disease,diverticulitis,,true
+d_diverticulosis,Disease,diverticulosis,,true
+d_drug_withdrawal,Disease,drug withdrawal,,true
+d_ectopic_pregnancy,Disease,ectopic pregnancy,,true
+d_encephalitis,Disease,encephalitis,,true
+d_encephalopathy,Disease,encephalopathy,,true
+d_endometrial_cancer,Disease,endometrial cancer,,true
+d_endometriosis,Disease,endometriosis,,true
+d_epididymitis,Disease,epididymitis,,true
+d_epilepsy,Disease,epilepsy,,true
+d_esophageal_cancer,Disease,esophageal cancer,,true
+d_fibroids,Disease,fibroids,,true
+d_fibromyalgia,Disease,fibromyalgia,,true
+d_gallstones,Disease,gallstones,,true
+d_gastritis,Disease,gastritis,,true
+d_gastroparesis,Disease,gastroparesis,,true
+d_glaucoma,Disease,glaucoma,,true
+d_goiter,Disease,goiter,,true
+d_gout,Disease,gout,,true
+d_groin_hernia,Disease,groin hernia,,true
+d_heart_attack,Disease,heart attack,,true
+d_hepatitis_a,Disease,hepatitis a,,true
+d_hepatitis_b,Disease,hepatitis b,,true
+d_hepatitis_c,Disease,hepatitis c,,true
+d_hiatal_hernia,Disease,hiatal hernia,,true
+d_high_blood_pressure,Disease,high blood pressure,,true
+d_high_cholesterol,Disease,high cholesterol,,true
+d_hiv_aids,Disease,hiv/aids,,true
+d_hives,Disease,hives,,true
+d_hyperthyroidism,Disease,hyperthyroidism,,true
+d_hypoglycemia,Disease,hypoglycemia,,true
+d_hyponatremia,Disease,hyponatremia,,true
+d_hypothyroidism,Disease,hypothyroidism,,true
+d_insect_bites_and_stings,Disease,insect bites and stings,,true
+d_iron_deficiency_anemia,Disease,iron deficiency anemia,,true
+d_irritable_bowel_syndrome,Disease,irritable bowel syndrome,,true
+d_kidney_infection,Disease,kidney infection,,true
+d_kidney_stone,Disease,kidney stone,,true
+d_liver_cancer,Disease,liver cancer,,true
+d_low_back_pain,Disease,low back pain,,true
+d_lung_cancer,Disease,lung cancer,,true
+d_lupus,Disease,lupus,,true
+d_lyme_disease,Disease,lyme disease,,true
+d_major_depression,Disease,major depression,,true
+d_melanoma,Disease,melanoma,,true
+d_meningitis,Disease,meningitis,,true
+d_middle_ear_infection,Disease,middle ear infection,,true
+d_migraine,Disease,migraine,,true
+d_miscarriage,Disease,miscarriage,,true
+d_mono,Disease,mono,,true
+d_multiple_myeloma,Disease,multiple myeloma,,true
+d_multiple_sclerosis,Disease,multiple sclerosis,,true
+d_myasthenia_gravis,Disease,myasthenia gravis,,true
+d_neutropenia,Disease,neutropenia,,true
+d_obesity,Disease,obesity,,true
+d_osteoarthritis,Disease,osteoarthritis,,true
+d_osteoporosis,Disease,osteoporosis,,true
+d_ovarian_cancer,Disease,ovarian cancer,,true
+d_ovarian_cyst,Disease,ovarian cyst,,true
+d_pancreatitis,Disease,pancreatitis,,true
+d_parkinson_s_disease,Disease,parkinson's disease,,true
+d_pink_eye,Disease,pink eye,,true
+d_plantar_fasciitis,Disease,plantar fasciitis,,true
+d_pleural_effusion,Disease,pleural effusion,,true
+d_pneumonia,Disease,pneumonia,,true
+d_pneumothorax,Disease,pneumothorax,,true
+d_polycystic_ovary_syndrome,Disease,polycystic ovary syndrome,,true
+d_post_traumatic_stress_disorder,Disease,post traumatic stress disorder,,true
+d_prostate_cancer,Disease,prostate cancer,,true
+d_psoriasis,Disease,psoriasis,,true
+d_psychosis,Disease,psychosis,,true
+d_pulmonary_embolism,Disease,pulmonary embolism,,true
+d_pulmonary_hypertension,Disease,pulmonary hypertension,,true
+d_retinal_detachment,Disease,retinal detachment,,true
+d_rhabdomyolysis,Disease,rhabdomyolysis,,true
+d_rheumatoid_arthritis,Disease,rheumatoid arthritis,,true
+d_schizophrenia,Disease,schizophrenia,,true
+d_sciatica,Disease,sciatica,,true
+d_seasonal_allergies,Disease,seasonal allergies,,true
+d_sebaceous_cyst,Disease,sebaceous cyst,,true
+d_sepsis,Disease,sepsis,,true
+d_shingles,Disease,shingles,,true
+d_sickle_cell_anemia,Disease,sickle cell anemia,,true
+d_sinusitis,Disease,sinusitis,,true
+d_sleep_apnea,Disease,sleep apnea,,true
+d_spondylosis,Disease,spondylosis,,true
+d_sprained_ankle,Disease,sprained ankle,,true
+d_sprained_knee,Disease,sprained knee,,true
+d_sprained_wrist,Disease,sprained wrist,,true
+d_stomach_flu,Disease,stomach flu,,true
+d_stomach_ulcer,Disease,stomach ulcer,,true
+d_strep_throat,Disease,strep throat,,true
+d_stroke,Disease,stroke,,true
+d_tension_headache,Disease,tension headache,,true
+d_thoracic_radiculopathy,Disease,thoracic radiculopathy,,true
+d_thyroid_cancer,Disease,thyroid cancer,,true
+d_thyroid_nodules,Disease,thyroid nodules,,true
+d_traumatic_brain_injury,Disease,traumatic brain injury,,true
+d_type_1_diabetes,Disease,type 1 diabetes,,true
+d_type_2_diabetes,Disease,type 2 diabetes,,true
+d_ulcerative_colitis,Disease,ulcerative colitis,,true
+d_upper_respiratory_infection,Disease,upper respiratory infection,,true
+d_urinary_tract_infection,Disease,urinary tract infection,,true
+d_vitamin_d_deficiency,Disease,vitamin d deficiency,,true
+s_abdominal_cramping_from_gallstones,Symptom,abdominal cramping from gallstones,,true
+s_abdominal_discomfort,Symptom,abdominal discomfort,,true
+s_abdominal_distension,Symptom,abdominal distension,,true
+s_abdominal_pain,Symptom,abdominal pain,,true
+s_abdominal_tenderness,Symptom,abdominal tenderness,,true
+s_abnormality_walking,Symptom,abnormality walking,,true
+s_ache,Symptom,ache,,true
+s_acute_episodes,Symptom,acute episodes,,true
+s_aggression,Symptom,aggression,,true
+s_agitation,Symptom,agitation,,true
+s_amnesia,Symptom,amnesia,,true
+s_anger,Symptom,anger,,true
+s_ankle_pain,Symptom,ankle pain,,true
+s_anxiety,Symptom,anxiety,,true
+s_arm_discomfort,Symptom,arm discomfort,,true
+s_arm_pain,Symptom,arm pain,,true
+s_asymmetry,Symptom,asymmetry,,true
+s_back_pain,Symptom,back pain,,true
+s_belching,Symptom,belching,,true
+s_bleeding,Symptom,bleeding,,true
+s_bleeding_from_anus,Symptom,bleeding from anus,,true
+s_blister,Symptom,blister,,true
+s_blood_in_stool,Symptom,blood in stool,,true
+s_blood_in_urine,Symptom,blood in urine,,true
+s_blotchy_rash,Symptom,blotchy rash,,true
+s_blurred_vision,Symptom,blurred vision,,true
+s_bone_loss,Symptom,bone loss,,true
+s_bowel_obstruction,Symptom,bowel obstruction,,true
+s_brief_visual_or_sensory_abnormality,Symptom,brief visual or sensory abnormality,,true
+s_bruising,Symptom,bruising,,true
+s_burning_sensation,Symptom,burning sensation,,true
+s_calf_pain,Symptom,calf pain,,true
+s_cavity,Symptom,cavity,,true
+s_chest_discomfort,Symptom,chest discomfort,,true
+s_chest_pain_worsened_by_breathing,Symptom,chest pain worsened by breathing,,true
+s_chest_pressure,Symptom,chest pressure,,true
+s_chest_tightness,Symptom,chest tightness,,true
+s_chills,Symptom,chills,,true
+s_chronic_back_pain,Symptom,chronic back pain,,true
+s_chronic_cough,Symptom,chronic cough,,true
+s_cloudy_urine,Symptom,cloudy urine,,true
+s_clumsiness,Symptom,clumsiness,,true
+s_collapse,Symptom,collapse,,true
+s_coma,Symptom,coma,,true
+s_confusion,Symptom,confusion,,true
+s_confusion_in_the_evening_hours,Symptom,confusion in the evening hours,,true
+s_constipation,Symptom,constipation,,true
+s_cough_with_phlegm,Symptom,cough with phlegm,,true
+s_coughing,Symptom,coughing,,true
+s_coughing_up_blood,Symptom,coughing up blood,,true
+s_cramping,Symptom,cramping,,true
+s_crying,Symptom,crying,,true
+s_cyst,Symptom,cyst,,true
+s_dark_stool_from_digested_blood,Symptom,dark stool from digested blood,,true
+s_dark_urine,Symptom,dark urine,,true
+s_decreased_range_of_motion,Symptom,decreased range of motion,,true
+s_dehydration,Symptom,dehydration,,true
+s_delirium,Symptom,delirium,,true
+s_delusion,Symptom,delusion,,true
+s_depression,Symptom,depression,,true
+s_diarrhea,Symptom,diarrhea,,true
+s_difficulty_breathing,Symptom,difficulty breathing,,true
+s_difficulty_concentrating,Symptom,difficulty concentrating,,true
+s_difficulty_raising_the_foot,Symptom,difficulty raising the foot,,true
+s_difficulty_speaking,Symptom,difficulty speaking,,true
+s_difficulty_swallowing,Symptom,difficulty swallowing,,true
+s_difficulty_walking,Symptom,difficulty walking,,true
+s_difficulty_with_bodily_movement,Symptom,difficulty with bodily movement,,true
+s_discharge_from_penis,Symptom,discharge from penis,,true
+s_discomfort,Symptom,discomfort,,true
+s_discomfort_in_upper_abdomen,Symptom,discomfort in upper abdomen,,true
+s_disorganized_behavior,Symptom,disorganized behavior,,true
+s_disorientation,Symptom,disorientation,,true
+s_dizziness,Symptom,dizziness,,true
+s_double_vision,Symptom,double vision,,true
+s_drooling,Symptom,drooling,,true
+s_drooping_of_upper_eyelid,Symptom,drooping of upper eyelid,,true
+s_dry_cough,Symptom,dry cough,,true
+s_dry_mouth,Symptom,dry mouth,,true
+s_dry_skin,Symptom,dry skin,,true
+s_dryness,Symptom,dryness,,true
+s_dull_pain,Symptom,dull pain,,true
+s_ear_pain,Symptom,ear pain,,true
+s_elbow_pain,Symptom,elbow pain,,true
+s_elevated_alkaline_phosphatase,Symptom,elevated alkaline phosphatase,,true
+s_enlarged_neck_lymph_nodes,Symptom,enlarged neck lymph nodes,,true
+s_episodes_of_no_breathing,Symptom,episodes of no breathing,,true
+s_erectile_dysfunction,Symptom,erectile dysfunction,,true
+s_excess_thirst,Symptom,excess thirst,,true
+s_excess_urination,Symptom,excess urination,,true
+s_eye_discharge,Symptom,eye discharge,,true
+s_eye_irritation,Symptom,eye irritation,,true
+s_eye_pain,Symptom,eye pain,,true
+s_eye_redness,Symptom,eye redness,,true
+s_face_rash,Symptom,face rash,,true
+s_facial_pain,Symptom,facial pain,,true
+s_facial_paralysis,Symptom,facial paralysis,,true
+s_facial_swelling,Symptom,facial swelling,,true
+s_failure_to_thrive,Symptom,failure to thrive,,true
+s_fainting,Symptom,fainting,,true
+s_falling,Symptom,falling,,true
+s_fast_breathing,Symptom,fast breathing,,true
+s_fast_heart_rate,Symptom,fast heart rate,,true
+s_fatigue,Symptom,fatigue,,true
+s_fear,Symptom,fear,,true
+s_fear_of_loud_sounds,Symptom,fear of loud sounds,,true
+s_feeling_cold,Symptom,feeling cold,,true
+s_feeling_tired,Symptom,feeling tired,,true
+s_fever,Symptom,fever,,true
+s_finger_pain,Symptom,finger pain,,true
+s_flank_pain,Symptom,flank pain,,true
+s_flapping_tremor,Symptom,flapping tremor,,true
+s_fluid_in_the_abdomen,Symptom,fluid in the abdomen,,true
+s_fluid_in_the_lungs,Symptom,fluid in the lungs,,true
+s_flushing,Symptom,flushing,,true
+s_foot_numbness,Symptom,foot numbness,,true
+s_foot_pain,Symptom,foot pain,,true
+s_forgetfulness,Symptom,forgetfulness,,true
+s_foul_smelling_urine,Symptom,foul smelling urine,,true
+s_frequent_urge_to_urinate,Symptom,frequent urge to urinate,,true
+s_frequent_urination,Symptom,frequent urination,,true
+s_gagging,Symptom,gagging,,true
+s_groin_pain,Symptom,groin pain,,true
+s_guilt,Symptom,guilt,,true
+s_hallucination,Symptom,hallucination,,true
+s_hand_numbness,Symptom,hand numbness,,true
+s_hand_pain,Symptom,hand pain,,true
+s_hand_swelling,Symptom,hand swelling,,true
+s_hand_tremor,Symptom,hand tremor,,true
+s_head_congestion,Symptom,head congestion,,true
+s_headache,Symptom,headache,,true
+s_hearing_voices,Symptom,hearing voices,,true
+s_heartburn,Symptom,heartburn,,true
+s_heat_therapy,Symptom,heat therapy,,true
+s_heavy_or_prolonged_periods,Symptom,heavy or prolonged periods,,true
+s_heel_pain,Symptom,heel pain,,true
+s_high_fever,Symptom,high fever,,true
+s_hip_pain,Symptom,hip pain,,true
+s_hoarseness,Symptom,hoarseness,,true
+s_hopelessness,Symptom,hopelessness,,true
+s_hunger,Symptom,hunger,,true
+s_ice_pack,Symptom,ice pack,,true
+s_impaired_voice,Symptom,impaired voice,,true
+s_impulsivity,Symptom,impulsivity,,true
+s_inability_to_feel_pleasure,Symptom,inability to feel pleasure,,true
+s_incontinence,Symptom,incontinence,,true
+s_increased_thirst,Symptom,increased thirst,,true
+s_indigestion,Symptom,indigestion,,true
+s_infection,Symptom,infection,,true
+s_inflammation_of_ear,Symptom,inflammation of ear,,true
+s_insomnia,Symptom,insomnia,,true
+s_intermittent_abdominal_pain,Symptom,intermittent abdominal pain,,true
+s_intermittent_pain,Symptom,intermittent pain,,true
+s_iron_deficiency,Symptom,iron deficiency,,true
+s_irregular_menstruation,Symptom,irregular menstruation,,true
+s_irritation_of_the_tonsils,Symptom,irritation of the tonsils,,true
+s_itching,Symptom,itching,,true
+s_itchy_eyes,Symptom,itchy eyes,,true
+s_jaw_pain,Symptom,jaw pain,,true
+s_joint_pain,Symptom,joint pain,,true
+s_kidney_failure,Symptom,kidney failure,,true
+s_knee_pain,Symptom,knee pain,,true
+s_laryngitis,Symptom,laryngitis,,true
+s_leaked_fluid_out_of_blood_vessels_or_an_organ,Symptom,leaked fluid out of blood vessels or an organ,,true
+s_leaking_of_urine,Symptom,leaking of urine,,true
+s_leg_numbness,Symptom,leg numbness,,true
+s_leg_pain,Symptom,leg pain,,true
+s_leg_pain_during_exercise,Symptom,leg pain during exercise,,true
+s_lesion,Symptom,lesion,,true
+s_lethargy,Symptom,lethargy,,true
+s_lightheadedness,Symptom,lightheadedness,,true
+s_limping,Symptom,limping,,true
+s_loss_of_appetite,Symptom,loss of appetite,,true
+s_loss_of_interest,Symptom,loss of interest,,true
+s_low_blood_pressure,Symptom,low blood pressure,,true
+s_low_body_temperature,Symptom,low body temperature,,true
+s_low_oxygen_in_the_body,Symptom,low oxygen in the body,,true
+s_lower_abdominal_pain,Symptom,lower abdominal pain,,true
+s_lower_extremity_pain,Symptom,lower extremity pain,,true
+s_lump,Symptom,lump,,true
+s_lump_on_the_skin_or_joint,Symptom,lump on the skin or joint,,true
+s_malaise,Symptom,malaise,,true
+s_malnutrition,Symptom,malnutrition,,true
+s_manic_episode,Symptom,manic episode,,true
+s_memory_loss,Symptom,memory loss,,true
+s_mental_confusion,Symptom,mental confusion,,true
+s_mild_cough,Symptom,mild cough,,true
+s_mild_pain,Symptom,mild pain,,true
+s_mood_swings,Symptom,mood swings,,true
+s_muscle_pain,Symptom,muscle pain,,true
+s_muscle_spasms,Symptom,muscle spasms,,true
+s_muscle_twitches,Symptom,muscle twitches,,true
+s_muscle_weakness,Symptom,muscle weakness,,true
+s_nasal_congestion,Symptom,nasal congestion,,true
+s_nausea,Symptom,nausea,,true
+s_neck_pain,Symptom,neck pain,,true
+s_neck_swelling,Symptom,neck swelling,,true
+s_nerve_pain,Symptom,nerve pain,,true
+s_night_sweats,Symptom,night sweats,,true
+s_nightmares,Symptom,nightmares,,true
+s_noisy_breathing,Symptom,noisy breathing,,true
+s_numbness,Symptom,numbness,,true
+s_oral_thrush,Symptom,oral thrush,,true
+s_pain,Symptom,pain,,true
+s_pain_during_urination,Symptom,pain during urination,,true
+s_pain_in_lower_abdomen,Symptom,pain in lower abdomen,,true
+s_pain_in_right_lower_abdomen,Symptom,pain in right lower abdomen,,true
+s_pain_in_upper_abdomen,Symptom,pain in upper abdomen,,true
+s_pain_in_upper_right_abdomen,Symptom,pain in upper-right abdomen,,true
+s_pain_when_coughing,Symptom,pain when coughing,,true
+s_pain_worse_at_rest,Symptom,pain worse at rest,,true
+s_painful_swallowing,Symptom,painful swallowing,,true
+s_panic_attack,Symptom,panic attack,,true
+s_paralysis,Symptom,paralysis,,true
+s_paranoia,Symptom,paranoia,,true
+s_partial_loss_of_vision,Symptom,partial loss of vision,,true
+s_peeling_skin,Symptom,peeling skin,,true
+s_pelvic_pain,Symptom,pelvic pain,,true
+s_persistent_cough,Symptom,persistent cough,,true
+s_persistent_headache,Symptom,persistent headache,,true
+s_phlegm,Symptom,phlegm,,true
+s_physical_deformity,Symptom,physical deformity,,true
+s_pimple,Symptom,pimple,,true
+s_pins_and_needles,Symptom,pins and needles,,true
+s_plaque,Symptom,plaque,,true
+s_poor_appetite,Symptom,poor appetite,,true
+s_problems_with_coordination,Symptom,problems with coordination,,true
+s_racing_heartbeat,Symptom,racing heartbeat,,true
+s_racing_thoughts,Symptom,racing thoughts,,true
+s_radiating_pain,Symptom,radiating pain,,true
+s_raised_area_of_skin,Symptom,raised area of skin,,true
+s_rapid_involuntary_eye_movement,Symptom,rapid involuntary eye movement,,true
+s_rash_on_the_face,Symptom,rash on the face,,true
+s_rectal_pain,Symptom,rectal pain,,true
+s_red_rashes,Symptom,red rashes,,true
+s_red_spots,Symptom,red spots,,true
+s_redness,Symptom,redness,,true
+s_regurgitation,Symptom,regurgitation,,true
+s_respiratory_distress,Symptom,respiratory distress,,true
+s_restless_legs_syndrome,Symptom,restless legs syndrome,,true
+s_restlessness,Symptom,restlessness,,true
+s_rib_pain,Symptom,rib pain,,true
+s_ringing_in_the_ears,Symptom,ringing in the ears,,true
+s_runny_nose,Symptom,runny nose,,true
+s_sadness,Symptom,sadness,,true
+s_scab,Symptom,scab,,true
+s_scar,Symptom,scar,,true
+s_scarring_within_the_bile_ducts,Symptom,scarring within the bile ducts,,true
+s_screaming,Symptom,screaming,,true
+s_seeing_spots,Symptom,seeing spots,,true
+s_seizures,Symptom,seizures,,true
+s_sensitivity_to_light,Symptom,sensitivity to light,,true
+s_sensitivity_to_sound,Symptom,sensitivity to sound,,true
+s_severe_anxiety,Symptom,severe anxiety,,true
+s_severe_headache,Symptom,severe headache,,true
+s_severe_pain,Symptom,severe pain,,true
+s_shakiness,Symptom,shakiness,,true
+s_sharp_pain,Symptom,sharp pain,,true
+s_shivering,Symptom,shivering,,true
+s_shortness_of_breath,Symptom,shortness of breath,,true
+s_shortness_of_breath_while_lying_down,Symptom,shortness of breath while lying down,,true
+s_shoulder_pain,Symptom,shoulder pain,,true
+s_side_pain,Symptom,side pain,,true
+s_sinus_pain,Symptom,sinus pain,,true
+s_sinus_pressure,Symptom,sinus pressure,,true
+s_skin_irritation,Symptom,skin irritation,,true
+s_skin_lesion,Symptom,skin lesion,,true
+s_skin_rash,Symptom,skin rash,,true
+s_sleepiness,Symptom,sleepiness,,true
+s_slow_bodily_movement,Symptom,slow bodily movement,,true
+s_slow_heart_rate,Symptom,slow heart rate,,true
+s_slowness_in_activity_and_thought,Symptom,slowness in activity and thought,,true
+s_slurred_speech,Symptom,slurred speech,,true
+s_sneezing,Symptom,sneezing,,true
+s_snoring,Symptom,snoring,,true
+s_sore_throat,Symptom,sore throat,,true
+s_spotting,Symptom,spotting,,true
+s_stiff_neck,Symptom,stiff neck,,true
+s_stiffness,Symptom,stiffness,,true
+s_stinging_sensation,Symptom,stinging sensation,,true
+s_stomach_cramps,Symptom,stomach cramps,,true
+s_stuffy_nose,Symptom,stuffy nose,,true
+s_substance_abuse,Symptom,substance abuse,,true
+s_sweating,Symptom,sweating,,true
+s_swelling,Symptom,swelling,,true
+s_swelling_in_extremities,Symptom,swelling in extremities,,true
+s_swelling_of_the_surface_of_the_eye,Symptom,swelling of the surface of the eye,,true
+s_swelling_under_the_skin,Symptom,swelling under the skin,,true
+s_swollen_feet,Symptom,swollen feet,,true
+s_swollen_joint,Symptom,swollen joint,,true
+s_swollen_knee,Symptom,swollen knee,,true
+s_swollen_lymph_nodes,Symptom,swollen lymph nodes,,true
+s_swollen_tonsils,Symptom,swollen tonsils,,true
+s_swollen_veins_in_the_lower_esophagus,Symptom,swollen veins in the lower esophagus,,true
+s_tenderness,Symptom,tenderness,,true
+s_testicle_pain,Symptom,testicle pain,,true
+s_thirst,Symptom,thirst,,true
+s_thoughts_of_suicide,Symptom,thoughts of suicide,,true
+s_throbbing_headache,Symptom,throbbing headache,,true
+s_throbbing_pain,Symptom,throbbing pain,,true
+s_toe_pain,Symptom,toe pain,,true
+s_tongue_numbness,Symptom,tongue numbness,,true
+s_tongue_swelling,Symptom,tongue swelling,,true
+s_trembling,Symptom,trembling,,true
+s_tremor,Symptom,tremor,,true
+s_tremor_at_rest,Symptom,tremor at rest,,true
+s_unequal_pupils,Symptom,unequal pupils,,true
+s_unsteadiness,Symptom,unsteadiness,,true
+s_unsteady_gait,Symptom,unsteady gait,,true
+s_upper_abdominal_pain,Symptom,upper abdominal pain,,true
+s_urinary_retention,Symptom,urinary retention,,true
+s_vaginal_bleeding,Symptom,vaginal bleeding,,true
+s_vaginal_discharge,Symptom,vaginal discharge,,true
+s_vaginal_pain,Symptom,vaginal pain,,true
+s_vertigo,Symptom,vertigo,,true
+s_vision_disorder,Symptom,vision disorder,,true
+s_vision_loss,Symptom,vision loss,,true
+s_visual_hallucinations,Symptom,visual hallucinations,,true
+s_vomiting,Symptom,vomiting,,true
+s_vomiting_blood,Symptom,vomiting blood,,true
+s_wandering_and_getting_lost,Symptom,wandering and getting lost,,true
+s_watery_diarrhea,Symptom,watery diarrhea,,true
+s_watery_eyes,Symptom,watery eyes,,true
+s_weakness,Symptom,weakness,,true
+s_weakness_of_one_side_of_the_body,Symptom,weakness of one side of the body,,true
+s_weight_gain,Symptom,weight gain,,true
+s_weight_loss,Symptom,weight loss,,true
+s_wheezing,Symptom,wheezing,,true
+s_wrist_pain,Symptom,wrist pain,,true
+s_yellow_skin_and_eyes,Symptom,yellow skin and eyes,,true
